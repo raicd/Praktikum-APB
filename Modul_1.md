@@ -84,6 +84,8 @@ Langkah 5: Menjalankan Perintah Git di Terminal (Push ke GitHub)
 
 Pada tahap ini, seluruh perintah Git yang ditampilkan sebelumnya dijalankan secara berurutan melalui terminal. Proses dimulai dengan melakukan inisialisasi Git pada folder lokal (git init), menambahkan file ke staging area (git add), membuat commit (git commit), menghubungkan repositori lokal dengan repositori GitHub, hingga akhirnya mengunggah file ke GitHub menggunakan perintah (git push).
 
+<img src="push.jpg" width="500">
+
 Langkah 6: Repositori Berhasil Diperbarui
 
 Apabila proses pengunggahan (git push) berjalan dengan lancar tanpa kesalahan, maka seluruh file dan folder yang ada pada proyek lokal akan berhasil tersimpan di repositori GitHub. Dengan demikian, proyek tersebut sudah siap untuk digunakan maupun dikembangkan secara kolaboratif.
