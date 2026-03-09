@@ -57,17 +57,28 @@ Langkah 1: Membuat Repositori Baru di GitHub
 
 Langkah awal yang dilakukan adalah membuat repositori baru pada platform GitHub. Repositori tersebut berfungsi sebagai tempat penyimpanan proyek secara online sehingga kode yang dibuat dapat dikelola dan dibagikan dengan mudah.
 
+<img src="image.png" width="500">
+
+
+
 Langkah 2: Panduan Perintah Git
 
 Setelah repositori berhasil dibuat, GitHub akan menampilkan panduan berupa daftar perintah Git yang perlu dijalankan. Perintah-perintah ini nantinya digunakan untuk menghubungkan folder proyek yang ada di komputer lokal dengan repositori GitHub.
 
+<img src="Panduan.jpg" width="500">
+
 Langkah 3: Membuat Folder Proyek dan File
 
-Tahap berikutnya adalah menyiapkan folder proyek pada direktori komputer, misalnya membuat folder Pertemuan 1. Di dalam folder tersebut, tambahkan minimal satu file contoh seperti main.txt yang akan digunakan sebagai isi awal repositori.
+Tahap berikutnya adalah menyiapkan folder proyek pada direktori komputer, misalnya membuat folder Modul_1. Di dalam folder tersebut, tambahkan minimal satu file contoh seperti test.txt yang akan digunakan sebagai isi awal repositori.Disini saya sudah menambahkan beberapa file
+
+<img src="file.jpg" width="500">
+
 
 Langkah 4: Membuka CMD dari Direktori Folder Proyek
 
 Selanjutnya buka Command Prompt (CMD) atau Terminal, lalu arahkan lokasi direktori ke folder proyek yang telah dibuat sebelumnya. Hal ini bertujuan agar setiap perintah Git yang dijalankan nantinya diterapkan pada folder proyek yang benar.
+
+<img src="cmd.png" width="500">
 
 Langkah 5: Menjalankan Perintah Git di Terminal (Push ke GitHub)
 
