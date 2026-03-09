@@ -89,3 +89,5 @@ Pada tahap ini, seluruh perintah Git yang ditampilkan sebelumnya dijalankan seca
 Langkah 6: Repositori Berhasil Diperbarui
 
 Apabila proses pengunggahan (git push) berjalan dengan lancar tanpa kesalahan, maka seluruh file dan folder yang ada pada proyek lokal akan berhasil tersimpan di repositori GitHub. Dengan demikian, proyek tersebut sudah siap untuk digunakan maupun dikembangkan secara kolaboratif.
+
+<img src="hasil.jpg" width="500">
