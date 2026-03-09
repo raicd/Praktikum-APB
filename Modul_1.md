@@ -72,7 +72,7 @@ Langkah pertama adalah membuat repositori baru pada platform **GitHub**. Reposit
 
 Setelah repositori berhasil dibuat, GitHub akan menampilkan panduan berupa daftar perintah Git yang perlu dijalankan. Perintah-perintah ini nantinya digunakan untuk menghubungkan folder proyek yang ada di komputer lokal dengan repositori GitHub.
 
-<img src="Panduan.jpg" width="500">
+<img src="Panduan.JPG" width="500">
 
 ---
 
@@ -80,7 +80,7 @@ Setelah repositori berhasil dibuat, GitHub akan menampilkan panduan berupa dafta
 
 Tahap berikutnya adalah menyiapkan folder proyek pada direktori komputer, misalnya membuat folder **Modul_1**. Di dalam folder tersebut, tambahkan minimal satu file contoh seperti **test.txt** yang akan digunakan sebagai isi awal repositori. Pada tahap ini juga dapat ditambahkan beberapa file lain sesuai kebutuhan proyek.
 
-<img src="file.jpg" width="500">
+<img src="file.JPG" width="500">
 
 ---
 
@@ -102,7 +102,7 @@ Pada tahap ini, seluruh perintah Git yang ditampilkan sebelumnya dijalankan seca
 - Menghubungkan repositori lokal dengan repositori GitHub
 - Mengunggah file ke GitHub menggunakan perintah (`git push`)
 
-<img src="push.jpg" width="500">
+<img src="push.JPG" width="500">
 
 ---
 
@@ -110,4 +110,4 @@ Pada tahap ini, seluruh perintah Git yang ditampilkan sebelumnya dijalankan seca
 
 Apabila proses pengunggahan (`git push`) berjalan dengan lancar tanpa kendala, maka seluruh file dan folder yang ada pada proyek lokal akan berhasil tersimpan di repositori GitHub. Dengan demikian, proyek tersebut sudah siap digunakan dan dapat dikembangkan secara kolaboratif.
 
-<img src="hasil.jpg" width="500">
+<img src="hasil.JPG" width="500">
