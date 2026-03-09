@@ -2,13 +2,13 @@
 
 <br>
 
-LAPORAN PRAKTIKUM  
-APLIKASI BERBASIS PLATFORM
+# LAPORAN PRAKTIKUM  
+# APLIKASI BERBASIS PLATFORM
 
 <br>
 
-MODUL 1  
- GIT
+## MODUL 1  
+## GIT
 
 <br>
 
@@ -16,21 +16,21 @@ MODUL 1
 
 <br><br>
 
-### Disusun Oleh :
+### Disusun Oleh
 
-**HAMID SABIRIN**  
-**2311102129**  
+**Raihan Ramadhan**  
+**2311102040**  
 **S1 IF-11-REG01**
 
 <br>
 
-### Dosen Pengampu :
+### Dosen Pengampu
 
 **Dimas Fanny Hebrasianto Permadi, S.ST., M.Kom**
 
 <br>
 
-### Asisten Praktikum :
+### Asisten Praktikum
 
 **Apri Pandu Wicaksono**  
 **Rangga Pradarrell Fathi**
@@ -44,50 +44,70 @@ MODUL 1
 
 </div>
 
-## 1. Dasar Teori
-
-Git merupakan salah satu sistem pengendali versi (Version Control System) yang digunakan dalam pengembangan perangkat lunak dan dibuat oleh Linus Torvalds. Sistem ini berfungsi untuk mencatat setiap perubahan yang terjadi pada file dalam suatu proyek, baik yang dikerjakan secara individu maupun oleh tim. Git juga dikenal sebagai distributed revision control system, yaitu sistem kontrol versi yang basis datanya tidak hanya tersimpan di satu lokasi saja.
 ---
 
-2. Setup Repository via CLI
+# 1. Dasar Teori
 
-Berikut tahapan yang dilakukan untuk melakukan inisialisasi serta pengaturan repositori dari komputer lokal menuju GitHub menggunakan CLI:
+Git merupakan salah satu sistem pengendali versi (**Version Control System**) yang digunakan dalam pengembangan perangkat lunak dan dikembangkan oleh **Linus Torvalds**. Sistem ini berfungsi untuk mencatat setiap perubahan yang terjadi pada file dalam suatu proyek, baik yang dikerjakan secara individu maupun secara tim.
 
-Langkah 1: Membuat Repositori Baru di GitHub
+Git juga dikenal sebagai **Distributed Version Control System**, yaitu sistem kontrol versi yang penyimpanan databasenya tidak hanya berada pada satu lokasi saja, melainkan dapat tersebar di beberapa repositori.
 
-Langkah awal yang dilakukan adalah membuat repositori baru pada platform GitHub. Repositori tersebut berfungsi sebagai tempat penyimpanan proyek secara online sehingga kode yang dibuat dapat dikelola dan dibagikan dengan mudah.
+---
+
+# 2. Setup Repository via CLI
+
+Berikut adalah tahapan yang dilakukan untuk melakukan inisialisasi dan pengaturan repositori dari komputer lokal menuju GitHub menggunakan **Command Line Interface (CLI)**.
+
+---
+
+## Langkah 1: Membuat Repositori Baru di GitHub
+
+Langkah pertama adalah membuat repositori baru pada platform **GitHub**. Repositori ini akan menjadi tempat penyimpanan proyek secara online sehingga kode yang dibuat dapat dikelola dan dibagikan dengan mudah.
 
 <img src="image.png" width="500">
 
+---
 
-
-Langkah 2: Panduan Perintah Git
+## Langkah 2: Panduan Perintah Git
 
 Setelah repositori berhasil dibuat, GitHub akan menampilkan panduan berupa daftar perintah Git yang perlu dijalankan. Perintah-perintah ini nantinya digunakan untuk menghubungkan folder proyek yang ada di komputer lokal dengan repositori GitHub.
 
 <img src="Panduan.jpg" width="500">
 
-Langkah 3: Membuat Folder Proyek dan File
+---
 
-Tahap berikutnya adalah menyiapkan folder proyek pada direktori komputer, misalnya membuat folder Modul_1. Di dalam folder tersebut, tambahkan minimal satu file contoh seperti test.txt yang akan digunakan sebagai isi awal repositori.Disini saya sudah menambahkan beberapa file
+## Langkah 3: Membuat Folder Proyek dan File
+
+Tahap berikutnya adalah menyiapkan folder proyek pada direktori komputer, misalnya membuat folder **Modul_1**. Di dalam folder tersebut, tambahkan minimal satu file contoh seperti **test.txt** yang akan digunakan sebagai isi awal repositori. Pada tahap ini juga dapat ditambahkan beberapa file lain sesuai kebutuhan proyek.
 
 <img src="file.jpg" width="500">
 
+---
 
-Langkah 4: Membuka CMD dari Direktori Folder Proyek
+## Langkah 4: Membuka CMD dari Direktori Folder Proyek
 
-Selanjutnya buka Command Prompt (CMD) atau Terminal, lalu arahkan lokasi direktori ke folder proyek yang telah dibuat sebelumnya. Hal ini bertujuan agar setiap perintah Git yang dijalankan nantinya diterapkan pada folder proyek yang benar.
+Selanjutnya buka **Command Prompt (CMD)** atau terminal, kemudian arahkan lokasi direktori ke folder proyek yang telah dibuat sebelumnya. Hal ini bertujuan agar setiap perintah Git yang dijalankan nantinya diterapkan pada folder proyek yang benar.
 
 <img src="cmd.png" width="500">
 
-Langkah 5: Menjalankan Perintah Git di Terminal (Push ke GitHub)
+---
 
-Pada tahap ini, seluruh perintah Git yang ditampilkan sebelumnya dijalankan secara berurutan melalui terminal. Proses dimulai dengan melakukan inisialisasi Git pada folder lokal (git init), menambahkan file ke staging area (git add), membuat commit (git commit), menghubungkan repositori lokal dengan repositori GitHub, hingga akhirnya mengunggah file ke GitHub menggunakan perintah (git push).
+## Langkah 5: Menjalankan Perintah Git di Terminal (Push ke GitHub)
+
+Pada tahap ini, seluruh perintah Git yang ditampilkan sebelumnya dijalankan secara berurutan melalui terminal. Proses dimulai dengan:
+
+- Menginisialisasi Git pada folder lokal (`git init`)
+- Menambahkan file ke staging area (`git add`)
+- Melakukan commit perubahan (`git commit`)
+- Menghubungkan repositori lokal dengan repositori GitHub
+- Mengunggah file ke GitHub menggunakan perintah (`git push`)
 
 <img src="push.jpg" width="500">
 
-Langkah 6: Repositori Berhasil Diperbarui
+---
 
-Apabila proses pengunggahan (git push) berjalan dengan lancar tanpa kesalahan, maka seluruh file dan folder yang ada pada proyek lokal akan berhasil tersimpan di repositori GitHub. Dengan demikian, proyek tersebut sudah siap untuk digunakan maupun dikembangkan secara kolaboratif.
+## Langkah 6: Repositori Berhasil Diperbarui
+
+Apabila proses pengunggahan (`git push`) berjalan dengan lancar tanpa kendala, maka seluruh file dan folder yang ada pada proyek lokal akan berhasil tersimpan di repositori GitHub. Dengan demikian, proyek tersebut sudah siap digunakan dan dapat dikembangkan secara kolaboratif.
 
 <img src="hasil.jpg" width="500">
